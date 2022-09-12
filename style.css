@@ -1,0 +1,36 @@
+html{
+    font-size: 1vw;
+}
+.mobile-br{
+    display: none;
+}
+.desktop-br{
+    display: inline;
+}
+
+@media only screen and (min-width:1920px) {
+    html{
+        font-size: 19.2px !important;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    html{
+        font-size: 2vw !important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    html{
+        font-size: 3.5vw !important;
+    }
+    .mobile-br{
+        display: inline;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    .desktop-br{
+        display: none;
+    }
+}
